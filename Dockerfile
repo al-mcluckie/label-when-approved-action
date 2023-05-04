@@ -1,4 +1,4 @@
-FROM alpine:3.10.3
+FROM alpine:3.17.2
 
 LABEL "com.github.actions.name"="Label approved pull requests"
 LABEL "com.github.actions.description"="Auto-label pull requests that have a specified number of approvals"
